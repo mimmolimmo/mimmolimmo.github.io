@@ -1,0 +1,103 @@
+/*Try adding and removing css property-value pairs to see the effect they are having on the document's appearance*/
+body{
+	margin: 0px;
+	font-family: 'arial';
+	width: 100%;
+	padding-left:0%;
+	padding-right:0%;
+    background-color:hsl(0, 0%, 0%);
+}
+
+
+header{
+	/*Background colour for header*/
+	background-image: url("background.gif");
+	
+	/*Text colour for header*/
+	color:white;
+	
+	/*Centering the text*/
+	text-align: left;
+	
+	/*Adding some spacing*/
+	padding: 5px;
+}
+
+header > h1 {
+    width: 60%;
+    text-align: right;
+    padding-left:20%;
+    padding-right: 20%;
+}
+
+.blue{
+	/*Text color of headings inside of sections*/
+	color: #30ACEC;
+}
+
+nav{
+	background-color: hsl(0, 90%, 28%);
+	/*General positioning stuff. Don't worry about this*/
+    margin:0px;
+    line-height:30px;
+	height:750px;
+	width:20%;
+	float:right;
+	padding:5px; 
+}
+
+a{
+	/*Overwrites the default underline and color on links*/
+    text-decoration:none;
+	color: white;
+	font-weight: bold;
+}
+
+a:hover{
+	/*Changes the colour when links are hovered over with the mouse*/
+	color: #30ACEC;
+}
+
+ul{
+	/*Removes the bullet points from lists*/
+	list-style: none;
+	padding-left: 5px;
+}
+
+section{
+	/*Text color for everything inside of a section*/
+	color: #404040;
+
+	width: 65%;
+	float:left;
+
+	padding:5px 50px 0px 50px; 
+}
+
+footer{
+	/*Background and Text color for the footer*/
+	background-color:hsl(0, 0%, 0%);
+	color:white;
+	
+	/*Positioning*/
+	clear:both;
+	text-align:center;
+	padding:5px; 
+}
+
+section > h1{
+	color: #30ACEC;
+}
+
+h2{
+	font-size:120%;
+}
+
+.blue{
+	/*This gives elements with a class of "blue" a different colour*/
+	color: #30ACEC;
+}
+.bold{
+	/*Makes elements with a class of "bold" a bolded font*/
+	font-weight: bold;
+}
